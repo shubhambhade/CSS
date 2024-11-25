@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        h1{
+            text-align: center;
+        }
+        #cont{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border: 3px solid black;
+          margin: 5px;
+          display: inline-block;
+        }
+        .box1{
+            grid-row: 1/2;
+            grid-column: 1/2;
+        }
+    </style>
+</head>
+<body>
+    <h1>grid model</h1>
+    <div id="cont">
+        <div id="box1" class="box">Box1</div>
+        <div id="box2" class="box">Box2</div>
+        <div id="box3" class="box">Box3</div>
+        <div id="box4" class="box">Box4</div>
+    </div>
+</body>
+</html>
