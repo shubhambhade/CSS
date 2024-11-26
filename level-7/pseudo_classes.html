@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #button{
+            margin: 150px;
+            background-color: aqua;
+            width: 150px;
+            height: 30px;
+           border-radius: 30px;
+           border: 3px solid black;
+           transition-property: all;
+           transition-duration: 4s;
+           transition-timing-function: ease-in-out;
+           transition-delay: 1s;
+        }
+        #button:hover
+        {
+            background-color: rgb(229, 27, 27);
+        }
+        #button:active
+        {
+            height: 30px;
+            width: 350px;
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <button id="button">click me</button>
+</body>
+</html>

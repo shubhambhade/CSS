@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css transform</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            border: 3px solid black;
+            border-radius: 5px;
+            background-color: plum;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            
+            transition: all 2s ease-in;
+            margin: 10px;
+
+        }
+        .box:hover{
+            transform: rotate(70deg);
+        }
+
+        #fe{
+            background-color: aqua;
+        }
+        #fe:hover{
+            transform: scale(2);
+        }
+        #se{
+            background-color: red;
+        }
+        #se:hover{
+            transform: scalex(2);
+        }
+        #te{
+            background-color: violet;
+        }
+        #te:hover{
+            transform: scaley(2);
+        }
+        #x:hover{
+            transform: translatex(70px);
+        }
+        #y:hover{
+            transform: translatey(70px);
+        }
+        #xy:hover{
+            transform: translate(70px , 70px);
+        }
+        #skew{
+            height: 50px;
+            width: 80px;
+            background-color: blueviolet;
+            border: 3px solid black;
+            border-radius: 10px;
+            margin: 100px;
+            transition: all 2s ease-in;
+            position: relative;
+        }
+        #skew:hover{
+            transform: skew(90deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"> Rotate</div>
+
+    <div class="box" id="fe"> scale</div>
+    <div class="box" id="se"> scaley</div>
+    <div class="box" id="te"> scalex</div>
+    <div class="box" id="x"> translatex</div>
+    <div class="box" id="y"> translatey</div>
+    <div class="box" id="xy"> translatex-y</div>
+    <div id="skew">skew</div>
+</body>
+</html>

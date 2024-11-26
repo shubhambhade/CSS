@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        #fe{
+            height: 100px;
+            width: 200px;
+            background-color: blueviolet;
+            border: 3px solid black;
+            border-radius: 10px;
+            margin: 100px;
+            transition: all 2s ease-in;
+            position: relative;
+            animation-name: rotate;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes rotate {
+            0%{
+                left: 10px;
+            }
+            50%{
+                left: 50px;
+            }
+            100%{left: 300px;}
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="fe">animation</div>
+</body>
+</html>
