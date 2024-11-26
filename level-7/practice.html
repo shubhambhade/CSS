@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+        .progress-container{
+            height: 30px;
+            width: 90%;
+            background-color: blue;
+            border: 3px solid black;
+            border-radius: 20px;
+            position: relative;
+            left: 4%;
+        }
+        .progress-bar{
+            background-color: mediumorchid;
+            height: 100%;
+            width: 50%;
+            border-radius: 20px;
+            animation: progress 3s infinite;
+        }
+        @keyframes progress {
+            from{width: 0%;}
+            to{width: 100%;}
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar">
+
+        </div>
+    </div>
+</body>
+</html>
