@@ -1,0 +1,50 @@
+**********Syllabus**********
+1] introduction
+2] Types of css
+3] css properties , selectors and values
+4] applying css to html
+5] css color
+6]css box model, margin , padding
+7]borders
+8] css text and fonts formats
+9] css advanced topics ( effects annimation , shadows)
+10] flex property
+11] display property12] background image property13] z-index
+
+----------------------------------------------------------------------------------
+css - cascading style sheet 
+
+css describe  how html elements are to be displayed on screen, paper or other media.
+css saves a lot of work it ca control the layout of multiple web pages all ata onces.
+
+why use css ?
+css is used to define styles for our web page including the design,
+layout and variants in diplay for different devices and screen in css.
+
+css syntax:
+a css rule-set consists of a selector and a declaration block.
+
+------------------------------------------------------------------------------------
+Three ways to insert css
+1] inline stylesheet
+2] internal stylesheet
+3] external stylesheet
+-------------------------------------------------------------------------------------
+priority of selectors
+1]id selector
+2]class selector
+3]element selector
+------------------------------------------------------------------------------------
+CSS Priority (Cascading Order)
+Inline Styles. Inline styles have the highest priority.
+Internal and External CSS. Both internal (embedded) and external stylesheets have a lower priority than inline styles. 
+Browser Default Styles. If no other styles are applied, the browser's default styles will be used.
+-------------------------------------------------------------------------------------
+colors in css : 
+1]predefine color name
+2]rgb : 0 to 255
+3]rgba()  a = 0.0 to 1.0 define transparency.
+4]Hex : #rrggbb --> it contain 6 digits.  (range 00 to ff).  
+5]HSL :(hue saturation and lightness)
+
+

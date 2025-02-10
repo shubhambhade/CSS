@@ -1,0 +1,26 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(200, 246, 120);
+}
+/* element selector */
+h1,h2,p{
+    font-size: 20px;
+    color: blue;
+    border: 3px dashed;
+    background-color: aliceblue;
+}
+/* id selctor */
+#hi{
+    font-size: 30px;
+    border: 3px dotted;
+    background-color: aqua;
+}
+/* class selector */
+.hii{
+    font-size: 25px;
+    background-color: coral;
+}
