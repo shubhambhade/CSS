@@ -46,5 +46,7 @@ colors in css :
 3]rgba()  a = 0.0 to 1.0 define transparency.
 4]Hex : #rrggbb --> it contain 6 digits.  (range 00 to ff).  
 5]HSL :(hue saturation and lightness)
+-----------------------------------------------------------------------------------------
+CDN = contain delivery network 
 
 
